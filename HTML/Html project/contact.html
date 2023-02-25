@@ -1,27 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
 </head>
+
 <body>
     <h1>Contact Us</h1>
     <header>
-        <nav aria-label="primary-navigation">
-            <ul>
-                <li>
-                    <a href="#html" target="_blank" rel="noopener noreferrer">Learning HTML</a>
-                </li>
-                <li>
-                    <a href="#vacation" target="_blank" rel="noopener noreferrer">Planning a Vacation</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact me</a>
-                </li>
-            </ul>
-        </nav>
+        <section>
+            <nav aria-label="primary-nav">
+                <ul>
+                    <li><a href="index.html">About LTS</a></li>
+                    <li><a href="index.html">Our Menu</a></li>
+                    <li><a href="#storehours">Store Hours</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="res.jpg" alt="Tacos and a Drink" height="200" width="400">
+                <figcaption>Tacos and a Drink</figcaption>
+            </figure>
+        </section>
     </header>
+    <main>
+        <article id="#contactus">
+            <h2>Our Contact Form</h2>
+
+            <section>
+
+                <form action="https://httpbin.org/get" method="get">
+
+                    <fieldset>
+                        <legend>Send Us A Message</legend>
+                        <p>
+                            <label for="Name">Name:</label>
+                            <input type="text" name="Name" id="Name">
+                        </p>
+                        <p>
+                            <label for="Email">Email:</label>
+                            <input type="email" name="Email" id="Email">
+
+                        </p>
+                        <p>
+                            <label for="Message">Your Message:</label>
+                            <br>
+                            <textarea name="Message" id="Message" cols="30" rows="10">Type your message here</textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+
+                <h3>Our Location</h3>
+                <address>
+                    70 chairman para, Dakshin khan, Dhaka <br>
+                    ,1230
+                </address>
+                <p>
+                    phone: <a href="tel:+8801829329907">+880-1798887910</a>
+                </p>
+
+                <br>
+                <br>
+                <a href="#">Back to Top</a>
+            </section>
+
+        </article>
+    </main>
+    <br>
+    <br>
+    <footer>Copyright &copy; The Little Taco Shop</footer>
+
 </body>
+
 </html>
