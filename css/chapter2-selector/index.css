@@ -1,0 +1,14 @@
+body{
+    font-size: 22px;
+}
+
+p{
+    color:purple;
+}
+.gray{
+ color:grey;   
+}
+
+#second{
+    font-style: italic;
+}
