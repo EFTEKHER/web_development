@@ -1,14 +1,53 @@
-body{
-    font-size: 22px;
+/* universal selector */
+/* cascading style top to bottom */
+*{
+font-family: monospace;
+/* border: 2px solid black; */
 }
 
+html{
+    font-size: 25px;
+}
+button,input,textarea,select{
+    font: inherit;
+}
+main{
+    font-family: monospace;
+}
+
+
+body{
+    font-size: 22px;
+    /* border: 2px solid black; */
+}
+/* element selector */
+p{
+    color:pink;
+}
 p{
     color:purple;
 }
+
+/* class */
 .gray{
  color:grey;   
 }
-
+/* id */
 #second{
     font-style: italic;
+}
+
+/* group */
+h1,h2{
+    color:rgb(122, 41, 55);
+}
+
+/* p span{
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlights{
+    text-transform: uppercase;
+    background-color: gold;
 }
