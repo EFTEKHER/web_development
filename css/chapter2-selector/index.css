@@ -22,7 +22,7 @@ body{
 }
 /* element selector */
 p{
-    color:pink;
+    color:red !important;
 }
 p{
     color:purple;
