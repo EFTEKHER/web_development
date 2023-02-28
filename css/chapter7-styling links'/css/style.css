@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400;0,405;0,418;0,600;1,400;1,500;1,600;1,700&display=swap');
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Finlandica', sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:blue;
+}
+
+a:visited{
+   color: purple; 
+}
+a:hover,a:focus{
+    color:chartreuse;
+}
+a:active{
+    color:cadetblue;
+}
