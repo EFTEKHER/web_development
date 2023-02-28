@@ -1,0 +1,12 @@
+/* Typography is the way that text is arranged */
+
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    color:hotpink;
+}
+
+input,button{
+    font:inherit;
+}

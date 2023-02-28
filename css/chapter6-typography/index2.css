@@ -1,0 +1,25 @@
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Finlandica', sans-serif;
+   
+}
+p{
+    /* text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: none; */
+    /* text-transform: capitalize; */
+
+    /* text-transform: uppercase; */
+    /* text-align: left; */
+    /* for uniform letter */
+    text-align: justify;
+    text-indent: 5em;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    word-spacing: .2em;
+    font-weight: 400;
+    font-style: italic;
+
+}
