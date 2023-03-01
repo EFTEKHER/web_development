@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400;0,405;0,418;0,600;1,400;1,500;1,600;1,700&display=swap');
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Finlandica', sans-serif;
+}
+ol{
+    list-style-type: georgian;
+    padding: 0;
+}
+ul{
+    list-style-type:square;
+    padding: 0;
+    text-align: center;
+    /* list-style-position: outside; */
+    list-style-position:inside ;
+    color: #00f;
+    /* line-height: 1.6; */
+    /* list-style-image:url(../img/tick.png  ) ; */
+    /* list-style: square url("../img/tick.png") inside; */
+}
+
+ul li:nth-child(even){
+    color: red;
+}
+
+/* ::marker{
+   color:#872020; 
+   font-family: fantasy;
+   font-size: 1em;
+   content: "only $5 >>";
+   
+
+} */
+ul li ::marker{
+color: red;
+font-family: fantasy;
+font-size: 1em;
+content: "only $5 >>";
+};
