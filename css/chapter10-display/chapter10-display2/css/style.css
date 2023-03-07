@@ -1,0 +1,31 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+ul{
+   
+    list-style-type: none;
+    padding-left:0.5rem;
+    /* text-align: right; */
+    background-color: black;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin-inline: .5rem ;
+
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+li a:hover,li a:focus{
+    cursor: pointer;
+}
