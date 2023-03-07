@@ -1,0 +1,22 @@
+body{
+    font-size: 2rem;
+    font-family: monospace;
+}
+main{
+    background-color: aqua;
+    width: 50%;
+}
+p{
+    background-color: cadetblue;
+    margin: 50px 60px;
+}
+.opposite{
+    display: inline-block;
+    background-color: #333;
+    color: whitesmoke;
+    margin-top: 100px;
+    height: 200px;
+    padding: 4rem;
+    /* inline element doesnot have any margin 
+} */
+}
