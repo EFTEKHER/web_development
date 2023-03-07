@@ -1,0 +1,12 @@
+body{
+    font-size: 2rem;
+    font-family: monospace;
+}
+main{
+    background-color: aqua;
+    width: 50%;
+}
+p{
+    background-color: cadetblue;
+    margin: 50px 60px;
+}
