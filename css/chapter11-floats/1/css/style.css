@@ -1,0 +1,31 @@
+body{
+  font-size: 2rem;
+  font-family: monospace;  
+}
+.block{
+    width: 30vw;
+    height: 30vw;
+    background-color: #333;
+    color:whitesmoke;
+    padding: 1rem;
+    margin: 2rem;
+}
+.left{
+    float: left;
+    margin-right: 2rem;
+}
+.right{
+    float: right;
+    margin-left: 2rem;
+}
+.clear{
+    clear: both;
+}
+section{
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* overflow: auto;
+} */
+display: flow-root;
+
+}
