@@ -1,0 +1,53 @@
+body{
+    font-size: 34px;
+    font-family: monospace;
+
+}
+
+section{
+    height: 100vh;
+
+}
+
+.blue{background-color: #00f;}
+.red{background-color: red;}
+.green{background-color: green;}
+
+
+header,footer{
+    color: #fff;
+    text-align: center;
+    height: 100px;
+  
+}
+header{
+    position:sticky;
+    top:0;
+    font-size: 5rem;
+}
+footer{
+    background-color: #000;
+    position: sticky;
+    bottom:0;
+    width: 100%;
+    border-radius: 100px;
+}
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color:whitesmoke;
+    
+} 
+a:visited{
+    color:#fff;   
+}
+.social{
+    background-color: royalblue;
+    color:#fff;
+    font-size: inherit;
+    padding: 1rem;
+    position:fixed;
+    top:30%;
+    left:0;
+    z-index: 1;
+}
