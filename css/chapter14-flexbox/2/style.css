@@ -32,8 +32,8 @@ body{
 
 }
 .box{
-  min-width: 100px;
-  min-height: 100px;
+  width: 100px;
+  height: 100px;
   background-color: #000;
   color: #fff;
   font-size: 2rem;
@@ -43,10 +43,13 @@ body{
   justify-content: center;
   align-items: center;
   
-  flex-grow: 1;
-  flex-basis: 100px;
+  /* flex-shrink: 1;
+  flex-basis: 250px; */
+  /* grow sink basis */
+  flex: 1 1 150px;
 }
 
 .box:nth-child(2){
-flex-grow: 2;
+flex: 2 2 150px;
+order: -1;
 }
