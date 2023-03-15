@@ -20,9 +20,9 @@ body{
     background-color: aqua;
     display: flex;
     /*  main axis */
-    justify-content: center;
+    justify-content:space-between;
     gap: 1rem;
-    align-items: center;
+    align-items:baseline;
     flex-direction: row;
     /* flex-wrap: wrap; */
     flex-flow: row wrap;
