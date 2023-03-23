@@ -7,13 +7,19 @@
   box-sizing: border-box;
 }
 
+/* variables */
+:root{
+  /* color */
+  --BGCOLOR:#475569;
+}
+
 /* || GENERAL STYLES */
 body {
   font: 1.5rem "Nunito", sans-serif;
   min-height: 100vh;
 
-  background-color: #475569;
-  background-image: radial-gradient(whitesmoke, #475569);
+  background-color: var(--BGCOLOR);
+  background-image: radial-gradient(whitesmoke, var(--BGCOLOR));
   display: flex;
   flex-direction: column;
 }
