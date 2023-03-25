@@ -1,0 +1,10 @@
+const myArray = [];
+myArray.push("Dave");
+myArray.push(101);
+myArray.push(102);
+myArray[3] = "Efte";
+console.log(myArray);
+myArray.pop();
+console.log(myArray);
+myArray.splice(1,0,42);
+console.log(myArray);
