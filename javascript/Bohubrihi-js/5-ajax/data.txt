@@ -1,0 +1,6 @@
+Data for the Web
+The robots.txt and humans.txt files describe a website's content for web crawlers and people. In a similar way, a data.txt file describes a website's content for data discovery and access.
+
+A data.txt file is a file describing one or many data sources available through your website. Each entry must contain a 'path' attribute to point to the location of each data source, it can also contain optional attributes like 'description', 'license', 'name', and so on.
+
+The specification is under active development, it is intended to be a subset of yaml to make it secure and easy to parse with existing or custom parsers.
