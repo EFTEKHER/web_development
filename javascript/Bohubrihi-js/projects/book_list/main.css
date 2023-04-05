@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+h3 {
+    display: block;
+    margin: 1.5rem;
+    ;
+}
+
+.container {
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    ;
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+#title {
+    background-color: rgb(231, 203, 166);
+    color: black;
+    ;
+}
+
+#author {
+    background-color: rgb(171, 183, 107);
+    color: black;
+}
+
+#isbn {
+    background-color: rgb(174, 223, 225);
+    color: black;
+}
