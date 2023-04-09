@@ -1,0 +1,31 @@
+{
+    "persons":[
+        {
+            "name":"Efte",
+            "age":25,
+            "hometown":"Dhaka",
+            "married":false
+        },
+
+        {
+            "name":"Tonmoy",
+            "age":35,
+            "hometown":"Rajshahi",
+            "married":false
+        }
+        ,
+        {
+            "name":"Itachu",
+            "age":45,
+            "hometown":"Dinajpur",
+            "married":false
+        }
+        ,
+        {
+            "name":"morina",
+            "age":25,
+            "hometown":"Dhaka",
+            "married":false
+        }
+    ]
+}
