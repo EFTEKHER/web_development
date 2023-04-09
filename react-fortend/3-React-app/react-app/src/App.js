@@ -1,6 +1,7 @@
 // import {Video,Thumb} from "./components/video";
 
 import Video from "./components/video";
+import CV from "./components/cv.js";
 import "./App.css";
 // function App()
 // {
@@ -28,7 +29,7 @@ import "./App.css";
 function App() {
   let x = "Eftekher Ali Efte";
   let obj = {
-    title: "Machine learning tutorial",
+    title: "ML tutorial",
     views: "100k",
     time: "1 month ago",
     channel: "Eftekher Ali Efte",
@@ -41,6 +42,7 @@ function App() {
   return (
     <div className="App">
       <div>Videos</div>
+      <br></br>
       <Video
         title="React js tutorial"
         views="10K"
@@ -60,7 +62,9 @@ function App() {
         time="1 month ago"
         channel={x}
       ></Video>
+      <CV {...resume}></CV>
     </div>
+
   );
 }
 export default App;

@@ -1,30 +1,37 @@
-.dark{
+.dark {
     background-color: gray;
 
     color: white;
 }
-.container{
-width: 15em;
-margin: 0 0.2em;
-float: left;
+
+.container {
+    width: 15em;
+    margin: 0 0.2em;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
-.pic img{
+.pic img {
     width: 100%;
 }
 
-.title{
+.title {
     font-weight: bold;
     margin-bottom: 1em;
     color: white;
 }
 
-.channel,.views{
+.channel,
+.views {
     font-size: small;
-    color:#ccc;
+    color: #ccc;
     margin-bottom: 0.2em;
 
 }
-.views span{
+
+.views span {
     padding: 0 0.5em;
 }

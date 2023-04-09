@@ -55,13 +55,13 @@ return <>
 
 <div className='container'>
 <div className='pic'>
-<img src="https://loremflickr.com/cache/resized/65535_49259934132_521f629f16_320_240_g.jpg"
+<img src="https://loremflickr.com/640/360"
 alt="Katherine Johnson" />
 </div>
 
 
 <div className="title">{title} Tutorials</div>
-<div className="channel">{channel}</div>
+<div className="channel">{channel}✅</div>
 <div className="views">
 {views} views<span>.</span>{time}
 </div>
