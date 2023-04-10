@@ -45,23 +45,31 @@ import './video.css';
 // <div className={bg} style={{backgroundColor:bgColor}} >{title} Tutorials</div>
 // </>
 // }
-function Video({title,channel,views,time})
+function Video({title,id,channel,views,time,verified})
 {
 
-   console.log(title);
+
+// let channelJsx;
+// if(verified)
+// {
+//    channelJsx=<div className="channel">{channel}✅</div>;
+// }
+// else{
+//    channelJsx=<div className="channel">{channel}</div>;
+// }
 
     
 return <>
 
 <div className='container'>
 <div className='pic'>
-<img src="https://loremflickr.com/640/360"
+<img src={`https://picsum.photos/id/${id}/160/90/`}
 alt="Katherine Johnson" />
 </div>
 
 
 <div className="title">{title} Tutorials</div>
-<div className="channel">{channel}✅</div>
+<div className="channel">{channel}{verified&&"✅"}</div>
 <div className="views">
 {views} views<span>.</span>{time}
 </div>

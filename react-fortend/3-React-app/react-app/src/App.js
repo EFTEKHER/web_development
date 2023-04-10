@@ -1,7 +1,7 @@
 // import {Video,Thumb} from "./components/video";
 
 import Video from "./components/video";
-import CV from "./components/cv.js";
+import videosOne  from "./data/data";
 import "./App.css";
 // function App()
 // {
@@ -27,42 +27,31 @@ import "./App.css";
 // );
 // }
 function App() {
-  let x = "Eftekher Ali Efte";
-  let obj = {
-    title: "ML tutorial",
-    views: "100k",
-    time: "1 month ago",
-    channel: "Eftekher Ali Efte",
-  };
-  let resume = {
-    experience : [ { year:2012, company:'xyz', role:'something' }],
-    education:['undergraduate in Cse','intermediate in Science'],
-    skills : [ 'react js', 'node js'],
-    };
+ 
+ 
+ 
   return (
     <div className="App">
       <div>Videos</div>
-      <br></br>
-      <Video
-        title="React js tutorial"
-        views="10K"
-        time="1 year ago"
-        channel={x}
-      ></Video>
-      <Video
-        title="Node js tutorial"
-        views="100k"
-        time="1 month ago"
-        channel={x}
-      ></Video>
-      <Video {...obj}></Video>
-      <Video
-        title="Mongo Db tutorial"
-        views="100k"
-        time="1 month ago"
-        channel={x}
-      ></Video>
-      <CV {...resume}></CV>
+    {
+      videosOne.map(v=>
+        <Video
+        key={v.id}
+        id={v.id}
+        title={v.title}
+        views={v.views}
+        time={v.time}
+        channel={v.channel}
+        verified={v.verified} 
+        >
+       
+        
+        </Video>
+       )
+      
+    }
+      
+    
     </div>
 
   );
