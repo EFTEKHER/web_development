@@ -45,7 +45,7 @@ import './video.css';
 // <div className={bg} style={{backgroundColor:bgColor}} >{title} Tutorials</div>
 // </>
 // }
-function Video({title,id,channel,views,time,verified})
+function Video({title,id,channel,views,time,verified,children})
 {
 
 
@@ -72,8 +72,15 @@ alt="Katherine Johnson" />
 <div className="channel">{channel}{verified&&"✅"}</div>
 <div className="views">
 {views} views<span>.</span>{time}
+<div>
+{
+    children
+}
 </div>
 </div>
+
+</div>
+
 </>
 }
 export default Video;
