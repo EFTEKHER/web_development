@@ -9,7 +9,7 @@ function PlayButton({children,message,onPlay,onPause})
     function handleClick(e)
 
     {
-        console.log(e);
+
         e.stopPropagation();
       
         if(playing) onPause();
@@ -20,7 +20,7 @@ function PlayButton({children,message,onPlay,onPause})
     }
     
 
-console.log(`${message}`);
+//console.log(`${message}`);
 
 
 
