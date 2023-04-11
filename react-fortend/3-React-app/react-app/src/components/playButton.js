@@ -1,19 +1,21 @@
 import './playbutton.css';
-
+import { useState } from 'react';
 
 function PlayButton({children,message,onPlay,onPause})
 {
-    let playing=false; //don't use this approch
+   // let playing=false; //don't use this approch
+   const [playing,setPlaying]=useState(false);
+
     function handleClick(e)
 
     {
         console.log(e);
         e.stopPropagation();
-        e.preventDefault();
+      
         if(playing) onPause();
         else onPlay();
 
-        playing=!playing;
+        setPlaying(!playing);
 
     }
     
@@ -23,7 +25,7 @@ console.log(`${message}`);
 
 
     return (
-        <button onClick={handleClick}>{children}:{playing?'>':'||'}</button>
+        <button onClick={handleClick}>{children}:{playing?'⏸':'⏯'}</button>
     );
 }
 

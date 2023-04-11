@@ -69,7 +69,7 @@ alt="Katherine Johnson" />
 
 
 <div className="title">{title} Tutorials</div>
-<div className="channel">{channel}{verified&&"✅"}</div>
+<div className="channel">{channel}{verified?"✅":null}</div>
 <div className="views">
 {views} views<span>.</span>{time}
 <div>
